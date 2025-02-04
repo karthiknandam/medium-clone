@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --breakpoint-3xl: 1920px;
+  --color-gray-custom: #8692a6;
+  --color-gray-label-input: #696f79;
+  --color-blue-button: #2c73eb;
+  /* ... */
+}
