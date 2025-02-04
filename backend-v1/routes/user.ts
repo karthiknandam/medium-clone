@@ -44,7 +44,6 @@ userRouter.post("/signup", async (c): Promise<Response> => {
       },
     });
     const token = await sign({ id: userData.id }, c.env?.SECRET_KEY);
-
     return c.json({
       token,
     });
